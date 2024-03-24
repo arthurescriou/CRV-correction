@@ -24,6 +24,6 @@ spec:
             - name: PORT
               value: '8080'
             - name: REDIS_URL
-              value: redis://redis:6379
+              value: redis://redis-ae:6379
             - name: REDIS_REPLICAS_URL
-              value: redis://redis:6379
+              value: redis://redis-ae:6379
