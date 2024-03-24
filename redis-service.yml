@@ -8,4 +8,4 @@ spec:
   ports:
     - port: 6389
       targetPort: 6389
-  type: LoadBalancer
+  type: ClusterIP
