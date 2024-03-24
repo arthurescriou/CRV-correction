@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: redis
+  name: redis-ae
 spec:
   selector:
-    app: redis
+    app: redis-ae
   ports:
     - port: 6389
       targetPort: 6389

@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: node-redis-deployment
+  name: node-redis-ae
   labels:
-    app: node-redis
+    app: node-redis-ae
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: node-redis
+      app: node-redis-ae
   template:
     metadata:
       labels:
-        app: node-redis
+        app: node-redis-ae
     spec:
       containers:
         - name: node-redis
