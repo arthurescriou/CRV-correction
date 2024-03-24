@@ -6,6 +6,6 @@ spec:
   selector:
     app: redis-ae
   ports:
-    - port: 6389
-      targetPort: 6389
+    - port: 6379
+      targetPort: 6379
   type: ClusterIP
