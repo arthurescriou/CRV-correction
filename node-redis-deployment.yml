@@ -22,6 +22,8 @@ spec:
             - containerPort: 8080
           env:
             - name: PORT
-              value: 8080
+              value: '8080'
             - name: REDIS_URL
+              value: redis://redis:6379
+            - name: REDIS_REPLICAS_URL
               value: redis://redis:6379
